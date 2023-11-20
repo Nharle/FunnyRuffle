@@ -30,17 +30,17 @@
 margin-top:100px;
 
 }
-ul {
+.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
+ display:flex;
   overflow: hidden;
+ justify-content:space-between;
   background-color:rgba(49,73,125,255);
 }
-.nav {
-  float: left;
-}
- a {
+
+ .nav a {
   text-align: center;
   padding: 16px 18px;
   text-decoration: none;
@@ -124,16 +124,16 @@ font-size:30px;
 <div id="navBar">
  <!--Nav Bar-->
 <nav>
-<ul> 
-<li class="dropdown" class="nav"><a href="#">Flipline Games</a>
+<ul class="nav"> 
+<li class="dropdown"><a href="#">Flipline Games</a>
 <div class="dropdown-content">
       <a href="Flipline_Games/Jacksmith.html">Jacksmith</a>
       <a href="Flipline_Games/Papa's_Pizzeria">Papa's Pizzeria</a>
       <a href="#">Papa's Whatever</a>
     </div>
 </li>
-<li class = "nav"><a href="SM63.html">Super Mario 63</a></li>
-<li class = "nav"> <a href="Obey.html">Obey The Game</a></li>
+<li><a href="SM63.html">Super Mario 63</a></li>
+<li> <a href="Obey.html">Obey The Game</a></li>
 </ul>
 </nav>
 </div>
